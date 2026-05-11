@@ -1,0 +1,206 @@
+<html>
+    <head>
+        <title>ojt</title>
+    </head>
+    <body>
+        <h1>prince</h1>
+        <h2>prince</h2>
+        <h3>prince</h3>
+        <h4>prince</h4>
+        <h5>prince</h5>
+        <h6>prince</h6>
+        <B>prince</B><br>
+        <i>prince</i>
+        <p>prince</p>
+        <br>
+        <hr>
+    
+            <ol>
+                <li>order</li><ul>
+                <ul>
+                    <li>step 1
+                        <ul>
+                            <li>prince</li>
+                            <li>chavda</li>
+                            <li>81</li>
+                        </ul></li>
+                    </li>
+            
+                    <li>step 2
+                            <ul>
+                                    <li>prince</li>
+                                    <li>chavda</li>
+                                    <li>81</li>
+                        </ul></li>  
+                          
+                </ul>
+            </ol>
+       
+            <ul>
+                <li>unoreder<ul
+                    <li>step 1 
+                        <ul>
+                            <li>prince</li>
+                            <li>chavda</li>
+                            <li>81</li>
+                        </ul></li>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <table border="1" cellpadding="8" cellspacing="0">
+
+        <tr>
+           
+            <th colspan="8" style="margin-bottom: 2%;"> <img aria-colspan="4" src="C:\Users\Prince\Pictures\Screenshots\Screenshot 2026-05-11 133533.png">Silver Oak University</th>
+           
+        </tr>
+
+        <tr>
+            <th colspan="2"> name</th>
+        </tr>
+
+        
+        <tr>
+            <th colspan="2"> enrollment no</th>
+            <td colspan="1"><th colspan="2">seat no</th><td colspan="3"></td>
+            </td>
+        </tr>
+
+      
+
+        <tr>
+            <th>course code</th>
+            <th>course name</th>
+            <th>CIE</th>
+            <th>E&E</th>
+            <th>CIE</th>
+            <th>ESE</th>   
+            <th>total mark</th>   
+            <th>obtain mark</th>   
+
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>WT</td>
+            <td>30</td>
+            <td>20</td>
+            <td>25</td>
+            <td>25</td>
+            <td>160</td>
+            <td>100</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>MATHS</td>
+            <td>30</td>
+            <td>20</td>
+            <td>25</td>
+            <td>25</td>
+            <td>160</td>
+            <td>100</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>OS</td>
+            <td>30</td>
+            <td>20</td>
+            <td>25</td>
+            <td>25</td>
+            <td>160</td>
+            <td>100</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>UML</td>
+            <td>30</td>
+            <td>20</td>
+            <td>25</td>
+            <td>25</td>
+            <td>160</td>
+            <td>100</td>
+        </tr>
+
+        <tr>
+            <th colspan="6">Total mark</th>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <th colspan="2">Percentage</th>
+            <td colspan="2"><th colspan="2">CGPA</th><td colspan="3"></td>
+            </td>
+        </tr>
+
+        <tr>
+            <th colspan="8">All The Best</th>
+        </tr>
+
+      </table>
+       <br>
+       <br>
+       <br>
+       <br>
+
+
+
+
+
+       <form style="font-size:125%; text-align: left; ">
+
+        <h1 style="text-align: center;">
+            Student Registration Form
+        </h1>
+
+            Enter Your Name
+            <input type="text" id="n1" placeholder="Enter Your Full Name"><br><br>
+
+            Enrollment No
+            <input type="text" id="e1" placeholder="2501031830013" maxlength="12" required><br><br>
+
+            Branch
+            <select>
+                <option>CSE</option>
+                <option>CE</option>
+                <option>IT</option>
+                <option>CYBER SECURITY</option>
+            </select><br><br>
+
+            Divison
+            <input type="text" id="d1" maxlength="1" required><br><br>
+
+            Gender<br>
+            <input type="radio" name="d1" value="male">male
+            <input type="radio" name="d1" value="female">female
+            <input type="radio" name="d1" value="other">other<br><br>
+
+            Mobile No
+            <input type="tel" id="digit" maxlength="10"><br><br>
+
+            Email Id
+            <input type="email" id="em1" placeholder="abcd1234@gmail.com"><br><br>
+
+            Passwword
+            <input type="password" id="ps1" minlength="12" required><br><br>
+
+            Upload Photo
+            <input type="file" id="u1" maxlength="100MB"><br><br>
+
+            Remark
+            <input type="text" id="r1" ><br><br>
+
+            <button>submit</button>
+
+           
+
+       </form>
+
+    </body>
+</html>
