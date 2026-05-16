@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://logo.clearbit.com/sbku.edu.in" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="day6.html"><img src="C:\Users\Prince\Pictures\website\U. S. Polo Assn. India _ USPA Official Site – U.S. Polo Assn. India_files\USPA_Logo_e5e8f319-4b6a-47dd-bd4d-4422173c3ebb_600x(1).png" alt="Logo" width="100%" height="30"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">log in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="grid.html">grid layout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="contact.html">contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <video autoplay muted loop class="w-100" style="height: 100vh; object-fit: cover;">
+        <source src="C:\prince\model-1\videoplayback.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+
+
+
+home page
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://logo.clearbit.com/sbku.edu.in" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #homeCarousel {
+            min-height: 80vh;
+            max-height: 90vh;
+        }
+        .home-carousel-img {
+            width: 100%;
+            height: 100%;
+            min-height: 80vh;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="day6.html"><img src="C:\Users\Prince\Pictures\website\U. S. Polo Assn. India _ USPA Official Site – U.S. Polo Assn. India_files\USPA_Logo_e5e8f319-4b6a-47dd-bd4d-4422173c3ebb_600x(1).png" alt="Logo" width="100%" height="30"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html    ">log in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="grid.html">grid layout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="contact.html ">contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0 mt-4">
+        <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="C:\Users\Prince\Pictures\website\deskstop_banner.webp" class="d-block w-100 home-carousel-img" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="C:\Users\Prince\Pictures\website\U. S. Polo Assn. India _ USPA Official Site – U.S. Polo Assn. India_files\LIMITED_DROP_DEKSTOP_BANNWER.jpg" class="d-block w-100 home-carousel-img" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="C:\Users\Prince\Pictures\website\U. S. Polo Assn. India _ USPA Official Site – U.S. Polo Assn. India_files\SS25_ESSENTIAL_DSKTOP.jpg" class="d-block w-100 home-carousel-img" alt="Slide 2">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+register
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://logo.clearbit.com/sbku.edu.in" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="day6.html"><img src="C:\Users\Prince\Pictures\website\U. S. Polo Assn. India _ USPA Official Site – U.S. Polo Assn. India_files\USPA_Logo_e5e8f319-4b6a-47dd-bd4d-4422173c3ebb_600x(1).png" alt="Logo" width="100%" height="30"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">log in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="grid.html">grid layout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="contact.html">contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+
+        <h1 class="text-center bg-warning p-3 rounded">
+            Student Registration Form
+        </h1>
+
+        <form class="border p-4 bg-white shadow rounded">
+
+            <div class="mb-3">
+                <label class="form-label">Enter Your Name</label>
+                <input type="text" class="form-control" placeholder="Enter Your Full Name">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Enrollment No</label>
+                <input type="text" class="form-control" placeholder="2501031830013" maxlength="12" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Branch</label>
+                <select class="form-select">
+                    <option>CSE</option>
+                    <option>CE</option>
+                    <option>IT</option>
+                    <option>CYBER SECURITY</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Division</label>
+                <input type="text" class="form-control" maxlength="1" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Gender</label><br>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender">
+                    <label class="form-check-label">Male</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender">
+                    <label class="form-check-label">Female</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender">
+                    <label class="form-check-label">Other</label>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Mobile No</label>
+                <input type="tel" class="form-control" maxlength="10">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Email Id</label>
+                <input type="email" class="form-control" placeholder="abcd1234@gmail.com">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input type="password" class="form-control" minlength="12" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Upload Photo</label>
+                <input type="file" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Remark</label>
+                <textarea class="form-control"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">
+                Submit
+            </button>
+
+        </form>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+log in
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://logo.clearbit.com/sbku.edu.in" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="day6.html"><img src="C:\Users\Prince\Pictures\website\U. S. Polo Assn. India _ USPA Official Site – U.S. Polo Assn. India_files\USPA_Logo_e5e8f319-4b6a-47dd-bd4d-4422173c3ebb_600x(1).png" alt="Logo" width="100%" height="30"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">log in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="grid.html">grid layout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="contact.html">contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+
+        <h1 class="text-center bg-warning p-3 rounded">
+            Student Login Form
+        </h1>
+
+        <form class="border p-4 bg-white shadow rounded">
+
+            <div class="mb-3">
+                <label class="form-label">Enter Your Name</label>
+                <input type="text" class="form-control" placeholder="Enter Your Full Name">
+            </div>
+
+           
+
+             <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input type="password" class="form-control" placeholder="Enter Your Password" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">Login</button>
+        </form>
+   
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+      contact
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://logo.clearbit.com/sbku.edu.in" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="day6.html"><img src="C:\Users\Prince\Pictures\website\U. S. Polo Assn. India _ USPA Official Site – U.S. Polo Assn. India_files\USPA_Logo_e5e8f319-4b6a-47dd-bd4d-4422173c3ebb_600x(1).png" alt="Logo" width="100%" height="30"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">log in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="grid.html">grid layout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="contact.html">contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="text-center bg-warning p-3 rounded">
+            Contact Us
+        </h1>
+        <div class="row g-4 mt-4 align-items-stretch">
+            <div class="col-lg-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <form action="submit_contact.php" method="POST" class="h-100 d-flex flex-column">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="mb-3 flex-grow-1">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control h-100" id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary mt-3 align-self-start">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body p-0">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.1234567890123!2d77.12345678901234!3d28.12345678901234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c123456789012%3A0x1234567890123456!2sSBKU%20Campus%20Location!5e0!3m2!1sen!2sin!4v1234567890123" class="w-100 h-100 rounded-bottom" style="min-height:450px; border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+
+
+grid
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://logo.clearbit.com/sbku.edu.in" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .grid-img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="day6.html"><img src="C:\Users\Prince\Pictures\website\U. S. Polo Assn. India _ USPA Official Site – U.S. Polo Assn. India_files\USPA_Logo_e5e8f319-4b6a-47dd-bd4d-4422173c3ebb_600x(1).png" alt="Logo" width="100%" height="30"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">log in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="grid.html">grid layout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="contact.html">contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   <div class="container mt-5">
+
+        <h1 class="text-center bg-warning p-3 rounded">
+            Grid Layout Example
+        </h1>
+
+        <div class="row g-3 mt-3">
+            <div class="col-md-4">
+                <img src="C:\Users\Prince\Pictures\website\happy-man-wearing-white-t-shirt-17163042.webp" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+            <div class="col-md-4">
+                <img src="C:\Users\Prince\Pictures\website\61nFJqqDebL._AC_UL1200_.jpg" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+            <div class="col-md-4">
+                <img src="C:\Users\Prince\Pictures\website\cf013b18-d3a2-4bc2-9b69-d055035c6310_1.c2694981aefd0d1b7bd3e8546766398c.webp" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+            <div class="col-md-4">
+                <img src="C:\Users\Prince\Pictures\website\man-tshirt-with-any-color-mockup_318596-137.avif" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+            <div class="col-md-4">
+                <img src="C:\Users\Prince\Pictures\website\8a16feeca939f6fdc9d5bb74442b0b19.jpg" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+            <div class="col-md-4">
+                <img src="C:\Users\Prince\Pictures\website\essentials-mens-short-sleeve-shirt-mid-blue-p1863-170813_medium.jpg" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+      
+
