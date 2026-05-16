@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="day5.css">
+</head>
+<body>
+    <nav id="n1">
+       
+        <a id="a1" href="chess.html"><i class="fas fa-chess"></i> chess</a>
+        
+    </nav>
+    
+    <img class="silveroak" src="C:\Users\Prince\Pictures\1627300464phpLsDraQ.jpeg" alt="sea">
+
+    <video class="video" autoplay loop muted>
+        <source src="C:\prince\model-1\0_Play_Button_Graphic_Design_1080x1080.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <br><br><br><br><br>
+    
+    
+
+</body>
+</html>
+--======-=-=-=-=-=--=-=-==-=-=-=======================================-================================================================
+
+ #n1{
+                    text-align:center;
+                    background-color: black;
+                    color: antiquewhite;
+                    width: 100%;
+                    height: 40px;
+                    
+                }
+                #a1{
+                    color:antiquewhite;
+                    padding: 3%;
+                    font-size:large;
+                    text-align: center;
+                }
+.silveroak{
+    background-color: #C0C0C0;
+    color: #000000;
+    padding: 20px;
+    border-radius: 10px ;
+    margin-left: 37%;
+   
+}
+:hover.silveroak{
+    background-color:#000000;
+    color: #FFFFFF;
+    transform: scale(1.2);
+    transition: 1.5s;
+}
+.video{
+    width: 1200px;
+    height: 500px;
+    border-radius: 50px;
+    margin-left: 9%;
+    object-fit: cover;
+}
+@media screen and (max-width: 568px) {
+    .silveroak {
+        margin-left: 0;
+        width: 70%;
+    }
+    .video {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+    
+}
