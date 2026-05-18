@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://logo.clearbit.com/sbku.edu.in" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .grid-img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="day6.html"><img src="C:\Users\Prince\Pictures\website\U. S. Polo Assn. India _ USPA Official Site – U.S. Polo Assn. India_files\USPA_Logo_e5e8f319-4b6a-47dd-bd4d-4422173c3ebb_600x(1).png" alt="Logo" width="100%" height="30"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">log in</a>
+                    </li>
+                   <li class="nav-item">
+                        <dropdown>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Collection
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="grid.html">Boys Collection</a></li>
+                                <li><a class="dropdown-item" href="girl.html">Girls Collection</a></li>
+                            </ul>
+                        </dropdown>
+                        <!-- <a class="nav-link " href="grid.html">grid layout</a> -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="contact.html">contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   <div class="container mt-5">
+
+        <h1 class="text-center bg-warning p-3 rounded">
+            Summer Collection
+        </h1>
+
+        <div class="row g-2 mt-3 ">
+            <div class="col-md-4 h-100">
+                <img src="C:\Users\Prince\Pictures\website\happy-man-wearing-white-t-shirt-17163042.webp" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+            <div class="col-md-6">
+                <img src="C:\Users\Prince\Pictures\website\61nFJqqDebL._AC_UL1200_.jpg" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+             <div class="col-md-2 ">
+                <img src="C:\Users\Prince\Pictures\website\U. S. Polo Assn. India _ USPA Official Site – U.S. Polo Assn. India_files\suniel_shetty_mega_menu-2_b74cd46f-3171-433c-8164-5c678c081961_1.jpg" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+             <div class="col-md-2">
+                <img src="C:\Users\Prince\Pictures\website\U. S. Polo Assn. India _ USPA Official Site – U.S. Polo Assn. India_files\SIGNATURE_SHIRTS_CATEGORY_TILE_242af8ec-62f0-49b4-9b06-2dcab66836de.jpg" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+            <div class="col-md-6">
+                <img src="C:\Users\Prince\Pictures\website\cf013b18-d3a2-4bc2-9b69-d055035c6310_1.c2694981aefd0d1b7bd3e8546766398c.webp" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+            <div class="col-md-4">
+                <img src="C:\Users\Prince\Pictures\website\man-tshirt-with-any-color-mockup_318596-137.avif" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+            <div class="col-md-6">
+                <img src="C:\Users\Prince\Pictures\website\8a16feeca939f6fdc9d5bb74442b0b19.jpg" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+             <div class="col-md-2">
+                <img src="C:\Users\Prince\Pictures\website\U. S. Polo Assn. India _ USPA Official Site – U.S. Polo Assn. India_files\white_shirt_mega_menu_1.jpg" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+            <div class="col-md-4">
+                <img src="C:\Users\Prince\Pictures\website\essentials-mens-short-sleeve-shirt-mid-blue-p1863-170813_medium.jpg" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+            <div class="col-md-2">
+                <img src="C:\Users\Prince\Pictures\website\U. S. Polo Assn. India _ USPA Official Site – U.S. Polo Assn. India_files\pacho_mega_menu-2_1.jpg" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+            <div class="col-md-8">
+                <img src="C:\Users\Prince\Pictures\website\Men-Shirt-2017-Spring-New-Brand-Business-Men-s-Slim-Fit-Dress-Shirt-Male-Long-Sleeves.avif" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+             <div class="col-md-2">
+                <img src="C:\Users\Prince\Pictures\website\U. S. Polo Assn. India _ USPA Official Site – U.S. Polo Assn. India_files\AT_HOME__1_2.jpg" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+           
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+
+
+
+      =========================================================================================================================
+
+
+      <!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://logo.clearbit.com/sbku.edu.in" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .grid-img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="day6.html"><img src="C:\Users\Prince\Pictures\website\U. S. Polo Assn. India _ USPA Official Site – U.S. Polo Assn. India_files\USPA_Logo_e5e8f319-4b6a-47dd-bd4d-4422173c3ebb_600x(1).png" alt="Logo" width="100%" height="30"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">log in</a>
+                    </li>
+                   <li class="nav-item">
+                        <dropdown>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Collection
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="grid.html">Boys Collection</a></li>
+                                <li><a class="dropdown-item" href="girl.html">Girls Collection</a></li>
+                            </ul>
+                        </dropdown>
+                        <!-- <a class="nav-link " href="grid.html">grid layout</a> -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="contact.html">contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   <div class="container mt-5">
+
+        <h1 class="text-center bg-warning p-3 rounded">
+            Summer Collection
+        </h1>
+<container class="container mt-5">
+        <div class="row g-2 mt-3 ">
+            <div class="col-md-4">
+                <img src="C:\Users\Prince\Pictures\website\3651-29446-lg.jpg" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+            <div class="col-md-6">
+                <img src="C:\Users\Prince\Pictures\website\eng_pm_Womens-plain-t-shirt-SLR001-pink-17402_2.jpg" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+             <div class="col-md-2 ">
+                <img src="C:\Users\Prince\Pictures\website\U. S. Polo Assn. India _ USPA Official Site – U.S. Polo Assn. India_files\WMM_02_2_1_5cadae27-9070-4c66-ba88-706f3d43baf0.jpg" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+             <div class="col-md-2">
+                <img src="C:\Users\Prince\Pictures\website\U. S. Polo Assn. India _ USPA Official Site – U.S. Polo Assn. India_files\WINTER_WEAR_MEGA_MENU.jpg" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+            <div class="col-md-6">
+                <img src="C:\Users\Prince\Pictures\website\2dd0ba74-d5a1-491e-8474-791000cdb6de_1.66739ab720d2925415d27331f61419f8.webp" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+            <div class="col-md-4">
+                <img src="C:\Users\Prince\Pictures\website\U. S. Polo Assn. India _ USPA Official Site – U.S. Polo Assn. India_files\KIDSWEAR_CATEGORY_TILES.jpg" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+            <div class="col-md-6">
+                <img src="C:\Users\Prince\Pictures\website\SMPFT025-B32-117934-1400px-1820px.jpg"alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+             <div class="col-md-2">
+                <img src="C:\Users\Prince\Pictures\website\U. S. Polo Assn. India _ USPA Official Site – U.S. Polo Assn. India_files\PALAK_TIWARI_HANDBAGS_-_MEGA_MENU_TILE.jpg" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+            <div class="col-md-4">
+                <img src="C:\Users\Prince\Pictures\website\2-b.png" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+            <div class="col-md-2">
+                <img src="C:\Users\Prince\Pictures\website\U. S. Polo Assn. India _ USPA Official Site – U.S. Polo Assn. India_files\pacho_mega_menu-2_1.jpg" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+            <div class="col-md-8">
+                <img src="C:\Users\Prince\Pictures\website\641f5df0-3dc9-4650-b854-28cd4c343833_1.af638d671c3eb2319d28c364582c4d02.webp" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+             <div class="col-md-2">
+                <img src="C:\Users\Prince\Pictures\website\U. S. Polo Assn. India _ USPA Official Site – U.S. Polo Assn. India_files\AT_HOME__1_2.jpg" alt="Logo" class="img-fluid rounded grid-img">
+            </div>
+
+           
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
