@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript method</h1>
+    <h2 id="dem0"></h2>
+    <button onclick="alertbox()">alert box</button>
+    <button onclick="confirmbox()">confirm box</button>
+    <button onclick="promptbox()">prompt box</button>
+    <script>
+        var x=5;
+        var y=10;
+        var z=x+y;
+        document.getElementById("dem0");
+
+        
+        function alertbox(){
+            alert(z);
+        }
+
+        function confirmbox(){
+            confirm(z);
+        }
+        
+        function promptbox(){
+            prompt(z);
+        }
+        
+
+        
+
+    </script>
+</body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f6fb;
+            margin: 0;
+            padding: 0;
+        }
+
+        .page-wrapper {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 16px;
+        }
+
+        .form-card {
+            width: 100%;
+            max-width: 520px;
+            background: #ffffff;
+            border-radius: 18px;
+            box-shadow: 0 18px 45px rgba(36, 83, 151, 0.12);
+            padding: 32px;
+        }
+
+        h1 {
+            margin: 0 0 10px;
+            font-size: 28px;
+            color: #1f2d3d;
+        }
+
+        p.subtitle {
+            margin: 0 0 24px;
+            color: #5f6c80;
+        }
+
+        .field {
+            margin-bottom: 18px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 600;
+            color: #2b3e59;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px 14px;
+            border: 1px solid #d7dde7;
+            border-radius: 10px;
+            font-size: 15px;
+            transition: border-color 0.2s ease;
+        }
+
+        input:focus {
+            border-color: #5d8cea;
+            outline: none;
+        }
+
+        .error-text {
+            margin-top: 6px;
+            font-size: 13px;
+            color: #d0453f;
+            min-height: 18px;
+        }
+
+        .actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        button {
+            appearance: none;
+            border: none;
+            padding: 12px 18px;
+            border-radius: 10px;
+            font-size: 15px;
+            font-weight: 700;
+            cursor: pointer;
+            color: #fff;
+            background: #2757ff;
+            transition: filter 0.2s ease;
+        }
+
+        button:hover {
+            filter: brightness(1.05);
+        }
+
+        .small-text {
+            color: #5f6c80;
+            font-size: 14px;
+            margin-top: 14px;
+        }
+
+        .success-message {
+            display: none;
+            margin-top: 18px;
+            padding: 14px 16px;
+            background: #eaf8f0;
+            border: 1px solid #8edfb5;
+            color: #1f5d40;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="form-card">
+            <h1>Create an account</h1>
+            <p class="subtitle">Complete the fields below to register for access.</p>
+
+            <form id="registrationForm" novalidate>
+                <div class="field">
+                    <label for="fullName">Full name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Jane Doe" required />
+                    <div class="error-text" id="fullNameError"></div>
+                </div>
+
+                <div class="field">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+                    <div class="error-text" id="emailError"></div>
+                </div>
+
+                <div class="field">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="At least 8 characters" required />
+                    <div class="error-text" id="passwordError"></div>
+                </div>
+
+                <div class="field">
+                    <label for="confirmPassword">Confirm password</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Repeat your password" required />
+                    <div class="error-text" id="confirmPasswordError"></div>
+                </div>
+
+                <div class="field">
+                    <label for="phone">Phone number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="1234567890" required />
+                    <div class="error-text" id="phoneError"></div>
+                </div>
+
+                <div class="actions">
+                    <span class="small-text">All fields are required.</span>
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+
+            <div class="success-message" id="successMessage">Registration completed successfully!</div>
+        </div>
+    </div>
+
+    <script>
+        const form = document.getElementById('registrationForm');
+        const successMessage = document.getElementById('successMessage');
+
+        const fields = {
+            fullName: document.getElementById('fullName'),
+            email: document.getElementById('email'),
+            password: document.getElementById('password'),
+            confirmPassword: document.getElementById('confirmPassword'),
+            phone: document.getElementById('phone'),
+        };
+
+        const errors = {
+            fullName: document.getElementById('fullNameError'),
+            email: document.getElementById('emailError'),
+            password: document.getElementById('passwordError'),
+            confirmPassword: document.getElementById('confirmPasswordError'),
+            phone: document.getElementById('phoneError'),
+        };
+
+        function setError(fieldName, message) {
+            errors[fieldName].innerText = message;
+            fields[fieldName].style.borderColor = '#d0453f';
+        }
+
+        function clearError(fieldName) {
+            errors[fieldName].innerText = '';
+            fields[fieldName].style.borderColor = '#d7dde7';
+        }
+
+        function validateEmail(value) {
+            return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+        }
+
+        function validatePhone(value) {
+            return /^\d{10,15}$/.test(value.replace(/\D/g, ''));
+        }
+
+        function validateForm() {
+            let isValid = true;
+            successMessage.style.display = 'none';
+
+            Object.keys(errors).forEach(key => clearError(key));
+
+            const fullName = fields.fullName.value.trim();
+            if (!fullName) {
+                setError('fullName', 'Full name is required.');
+                isValid = false;
+            }
+
+            const email = fields.email.value.trim();
+            if (!email) {
+                setError('email', 'Email is required.');
+                isValid = false;
+            } else if (!validateEmail(email)) {
+                setError('email', 'Please enter a valid email address.');
+                isValid = false;
+            }
+
+            const password = fields.password.value;
+            if (!password) {
+                setError('password', 'Password is required.');
+                isValid = false;
+            } else if (password.length < 8) {
+                setError('password', 'Password must be at least 8 characters.');
+                isValid = false;
+            }
+
+            const confirmPassword = fields.confirmPassword.value;
+            if (!confirmPassword) {
+                setError('confirmPassword', 'Confirm your password.');
+                isValid = false;
+            } else if (confirmPassword !== password) {
+                setError('confirmPassword', 'Passwords do not match.');
+                isValid = false;
+            }
+
+            const phone = fields.phone.value.trim();
+            if (!phone) {
+                setError('phone', 'Phone number is required.');
+                isValid = false;
+            } else if (!validatePhone(phone)) {
+                setError('phone', 'Use 10 to 15 digits only.');
+                isValid = false;
+            }
+
+            return isValid;
+        }
+
+        form.addEventListener('submit', event => {
+            event.preventDefault();
+            if (validateForm()) {
+                successMessage.style.display = 'block';
+                form.reset();
+                Object.keys(fields).forEach(key => fields[key].style.borderColor = '#d7dde7');
+            }
+        });
+    </script>
+</body>
+</html>
